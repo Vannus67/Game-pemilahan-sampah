@@ -1,0 +1,6 @@
+{
+  "name": "Pilah Sampah Ceria — IPAS Kelas 4 SD",
+  "description": "Game edukasi 2D interaktif untuk papan tulis pintar (Smartboard) mata pelajaran IPAS Kelas 4 SD materi Kelestarian Lingkungan dan Pengelolaan Sampah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
