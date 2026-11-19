@@ -50,11 +50,11 @@ interface AnswerFeedback {
   streakBonus: number;
 }
 
-const HERO_BACKDROP_PATH =
-  '/src/assets/images/schoolyard_eco_backdrop_1795059677512.jpg';
+const BASE = import.meta.env.BASE_URL;
+const HERO_BACKDROP_PATH = `${BASE}src/assets/images/schoolyard_eco_backdrop_1795059677512.jpg`;
 
-const CORRECT_REACTION_PHOTO = '/assets/aistudio/chiquita_cb7196e6.jpg';
-const WRONG_REACTION_PHOTO = '/assets/aistudio/bahlil_b5b90a0a.jpeg';
+const CORRECT_REACTION_PHOTO = `${BASE}assets/aistudio/chiquita_cb7196e6.jpg`;
+const WRONG_REACTION_PHOTO = `${BASE}assets/aistudio/bahlil_b5b90a0a.jpeg`;
 
 function buildDeck(binMode: BinMode, count: number): WasteItem[] {
   const pool =
